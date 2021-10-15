@@ -1,0 +1,90 @@
+.head-grid {
+  align-items: center;
+  display: grid;
+  grid-template-areas: 'logo search search search basket';
+  border-bottom: 2px solid #aaa;
+  padding: 10px;
+}
+
+.App .logo {
+  grid-area: logo;
+}
+
+.App .search {
+  grid-area: search;
+}
+
+.App .basket {
+  grid-area: basket;
+}
+
+.sub-head-grid {
+  align-items: center;
+  display: grid;
+  grid-template-areas: 'headText . . . sort';
+  padding: 10px;
+}
+
+.App .headText {
+  grid-area: headText;
+}
+
+.App .sort {
+  grid-area: sort;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-areas: 'filter products products products products';
+  padding: 10px;
+}
+
+.App .filter {
+  grid-area: filter;
+}
+
+.App .products {
+  grid-area: products;
+}
+
+.footer-grid {
+  align-items: center;
+  display: grid;
+  grid-template-areas: '. pages . . .';
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.App .pages {
+  grid-area: pages;
+}
+
+.App h2 {
+  margin: 5px 15px;
+}
+
+.sameLine {
+  display: inline-flex;
+  margin-left: 15px;
+}
+
+.searchTitle {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 500;
+  margin: 0px 1px;
+}
+
+.searchText {
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+  margin: 0px 1px;
+}
+
+.logoImg {
+  width: 150px;
+  height: auto;
+  border: none;
+  margin-left: 10px;
+}

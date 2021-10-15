@@ -1,0 +1,27 @@
+.modalTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.button-area {
+    float: right;
+}
+
+.approve {
+    background-color: #9d6;
+    color: #eee;
+    border: none;
+    margin: 0px 4px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.cancel {
+    background-color: #d66;
+    color: #eee;
+    border: none;
+    margin: 0px 4px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

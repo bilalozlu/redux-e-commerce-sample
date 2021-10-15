@@ -1,0 +1,17 @@
+.sort {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+select {
+    color: #aaa;
+    padding: 10px 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+option {
+    background-color: #444;
+    color: #eee;
+}
